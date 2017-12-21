@@ -1,0 +1,45 @@
+body {
+  padding: 50px 0 50px;  /* Espacio encabezado arriba - abajo */
+  background: url("../imagenes/fondo.png") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.txtcentrado {
+  text-align:center;
+}
+
+
+.centrado {
+  align-items: center;
+}
+
+.txtcentrado2 {
+  color: #FFFFFF;
+  text-align:center;
+}
+.container {
+text-align:center;
+margin-top: 420px;
+}
+
+
+.cerrar {
+margin-right: 70px;
+}
+
+article {
+margin-left: 0px;
+margin-top: 135px;
+}
+
+.modal-content {
+background: url("../imagenes/fondo3.png") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+

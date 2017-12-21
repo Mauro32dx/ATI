@@ -1,0 +1,59 @@
+
+<?php
+
+	$nombre = $_POST['nombre'];
+	$apellido = $_POST['apellido'];
+	$email = $_POST['email'];
+	
+?>
+
+
+<!DOCTYPE html>
+<html lang"es">
+	
+<head>
+	<meta charset="UTF-8">
+	<title>Trabajo Practico Individual</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+		<article>
+			<header>
+				<h1>USUARIO</h1>
+			</header>
+			<br/>
+			<br/>
+			<section id="espacio">
+				<label><b>Nombre: </b> <?php echo $nombre; ?>
+				
+			</section>
+			<section id="espacio">
+				<label><b>Apellido: </b> <?php echo $apellido; ?> </label>
+				
+			</section>
+
+			<section id="espacio">
+				<label><b>E-mail: </b> <?php echo $email; ?> 
+
+				</label>
+				
+			</section>
+
+		<br/>
+			
+				<br/>
+				<h3><a href="../">Cerrar</a></h3>
+							
+			</section>
+
+		</article>
+
+
+
+</body>
+
+
+
+</html>
